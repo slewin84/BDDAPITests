@@ -11,8 +11,8 @@ namespace TestBdd.tests
 {
     [Story(
         AsA = "API user",
-        IWant = "to be able to request data on the Flyer",
-        SoThat = "I can confirm the validity of the registration"
+        IWant = "to be able to send and receive posts to a blog",
+        SoThat = "I can update the content via API"
     )]
 
     public class JsonEndpointTests
